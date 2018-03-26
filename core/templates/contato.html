@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Contato</title>
+</head>
+<body>
+<form method="POST">
+{% csrf_token %}
+  Nome:<br>
+  <input type="text" name="nome" value="">
+  <br>
+  Telefone:<br>
+  <input type="text" name="telefone" value="">
+  <br><br>
+  <input type="submit" value="Enviar">
+</form> 
+
+</body>
+</html>

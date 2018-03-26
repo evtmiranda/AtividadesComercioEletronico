@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Login</title>
+</head>
+<body>
+<form method="POST">
+{% csrf_token %}
+  Nome:<br>
+  <input type="text" name="usuario" value="">
+  <br>
+  Senha:<br>
+  <input type="password" name="senha" value="">
+  <br><br>
+  <input type="submit" value="Enviar">
+</form> 
+
+</body>
+</html>
